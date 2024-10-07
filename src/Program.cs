@@ -184,7 +184,14 @@ namespace Practice
         }
         public static void Ex8()
         {
-
+            Console.WriteLine("Введите количество уровней пирамиды")
+            Console.Readline(int a);
+            string pyromid = "";
+            for (int i = 1; i <= a; i++)
+            {
+                pyromid += i;
+                Console.WriteLine(pyromid);
+            }
             back();
         }
 
